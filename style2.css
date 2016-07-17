@@ -1,0 +1,67 @@
+.site-banner {
+    background-color: #044D8C;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.usa-banner-content h1 {
+    color: #FFF;
+}
+
+.content-background-colored {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #D6E4ED;
+}
+
+.content-background-white {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: white;
+}
+
+.site-nav-secondary {
+    display: none; }
+@media screen and (min-width: 850px) {
+    .site-nav-secondary {
+        background-color: #ffffff;
+        border-bottom: 1px solid #aeb0b5;
+        clear: both;
+        display: block;
+        height: 5rem;
+        padding-left: 3rem; } }
+.site-nav-secondary.is-scrolled {
+    position: fixed;
+    top: 0;
+    width: 100%; }
+.site-nav-secondary ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+.site-nav-secondary ul li {
+    display: list-item;
+    margin: 0; }
+.site-nav-secondary ul li::before {
+    display: none; }
+.site-nav-secondary ul li::after {
+    display: none; }
+.site-nav-secondary ul li {
+    display: inline;
+    padding-right: 3rem; }
+.site-nav-secondary a {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    color: #000;
+
+    letter-spacing: 0.3px;
+    line-height: 5rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+.site-nav-secondary a:hover {
+    color: #0071bc;
+    text-decoration: underline; }
+.site-nav-secondary a.usa-current {
+    color: #0071bc;
+    font-weight: 700; }
