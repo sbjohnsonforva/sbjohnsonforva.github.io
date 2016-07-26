@@ -4,6 +4,14 @@
     padding-bottom: 2rem;
 }
 
+.logo {
+    width: 30%;
+}
+
+.paypal_image {
+    height: 60px;
+}
+
 .usa-banner-content h1 {
     color: #FFF;
 }
