@@ -1,0 +1,272 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    background-color: white;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h3 {
+    color: #112E51;
+    margin-top: 30px;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+@media (min-width: 768px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+a {
+    color: #E02142;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+a:hover,
+a:focus {
+    text-decoration: underline;
+    color: #112E51;
+}
+.light {
+    font-weight: 400;
+}
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #112E51;
+}
+.navbar-custom .navbar-toggle {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 12px;
+}
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
+    outline: none;
+}
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+.navbar-custom .navbar-brand:focus {
+    outline: none;
+}
+.navbar-custom a {
+    color: white;
+}
+.navbar-custom .nav li a {
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+}
+.navbar-custom .nav li a:hover {
+    color: rgba(255, 255, 255, 0.8);
+    outline: none;
+    background-color: transparent;
+}
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: none;
+    background-color: transparent;
+}
+.navbar-custom .nav li.active {
+    outline: none;
+}
+.navbar-custom .nav li.active a {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.navbar-custom .nav li.active a:hover {
+    color: white;
+}
+@media (min-width: 768px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: none;
+        letter-spacing: 1px;
+        background: transparent;
+        -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+        -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+        transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    }
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        background: #112E51;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+}
+.navbar a {
+    text-shadow:0 1px 2px rgba(0,0,0,.6);
+}
+
+.container-table {
+    position:absolute;
+    top: 30%;
+    left:50%;
+    z-index:15;
+    width:60%;
+    padding-left:0;
+    margin-left:-30%;
+    text-align:center;
+}
+
+.intro-text
+{
+    position: absolute;
+    top: 100px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.carousel-inner img {
+    min-width: 100%;
+    height: 500px;
+    max-width: none;
+}
+
+.main-text h1 {
+    color:white;
+    text-shadow:0 1px 2px rgba(0,0,0,.6);
+}
+
+.main-text h2 {
+    color:white;
+    text-shadow:0 1px 2px rgba(0,0,0,.6);
+}
+
+.main-text img {
+    margin-bottom: 2em;
+}
+
+@media (max-width: 768px) {
+    .main-text h1 {
+        font-size: 1.7em;
+    }
+    .main-text h2 {
+        font-size: 1.3em;
+    }
+}
+.btn {
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0;
+}
+footer {
+    background-color: #323A45;
+    padding: 50px 0;
+}
+footer p {
+    color: #AEB0B5;
+    margin: 0;
+}
+
+div.colored {
+    background-color: #F8F8F8;
+}
+
+hr.star-light,
+hr.star-primary {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -0.8em;
+    font-size: 2em;
+    padding: 0 0.25em;
+}
+hr.star-light {
+    border-color: white;
+}
+hr.star-light:after {
+    background-color: #18BC9C;
+    color: white;
+}
+hr.star-primary {
+    border-color: #2C3E50;
+}
+hr.star-primary:after {
+    background-color: white;
+    color: #2C3E50;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section ul {
+    padding: 0;
+}
+section li {
+    font-size: 18px;
+    line-height: 1.5;
+    list-style-type: none;
+}
+
+.btn-donate
+{
+    color: #FFF;
+    background-color: #E02142;
+}
+.btn-donate:hover
+{
+    color: #FFF;
+    background-color: #981B1E;
+}

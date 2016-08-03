@@ -1,385 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Steven B Johnson for Virginia City Council">
+    <meta name="author" content="Steven B Johnson">
 
     <title>Steven B. for Virginia</title>
-    <link rel="stylesheet" href="/3rdparty/uswds-0.9.6/css/uswds.min.css">
-    <link rel="stylesheet" href="/style2.css">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="css/steve.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-<div id="main" class="main-content" role="main">
-    <header role="banner">
-        <section class="site-banner">
-            <div class="usa-grid">
-                <div class="usa-banner-content" id="main-content">
-                    <h1>Steven B. for Virginia</h1>
-                    <img src="images/vote_logo.png" alt="Vote logo" class="logo"/>
-                    <h2 class="usa-font-lead">Connecting you to Virginia's future</h2>
-                </div>
 
-                <button class="usa-button usa-button-big usa-button-outline-inverse">$10</button>
-                <button class="usa-button usa-button-big usa-button-outline-inverse">$25</button>
-                <button class="usa-button usa-button-big usa-button-outline-inverse">$50</button>
-                <button class="usa-button usa-button-big usa-button-outline-inverse">$100</button>
-                <a class="usa-button usa-button-big usa-button-secondary" href="#donation">Donate</a>
-            </div>
-            <div class="usa-grid">
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="HG9HQBU43N536">
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class="paypal_image">
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>
-            </div>
-        </section>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-        <nav class="site-nav-secondary js-sticky-nav">
-            <div class="usa-grid ">
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">
+                STEVEN B. FOR VIRGINIA
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#issues">Issues</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#donation">Donations</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#volunteer">Volunteers</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Intro Header -->
+<!-- Full Page Image Background Carousel Header -->
+<header id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <!-- Top logo image and text -->
+    <div class="container container-table main-text">
+        <div class="row vertical-center-row">
+            <div class="text-center col-md-12">
+                <center>
+                <img src="images/vote_logo.png" class="img-responsive">
+                </center>
+
+                <h1>Steven B. for Virginia</h1>
+                <h2>Connecting you to Virginia's future</h2>
+                <a href="#donation" class="btn btn-lg btn-donate page-scroll">Donate</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for Slides -->
+    <div class="carousel-inner">
+
+        <div class="item active">
+            <div class="fill" style="background-image:url('pictures/top/DSC_5399.jpg');"></div>
+        </div>
+
+        <div class="item">
+            <div class="fill" style="background-image:url('pictures/top/DSC_6789.jpg');"></div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</header>
+
+<!-- Issues Section -->
+<section id="issues" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h2>Issues</h2>
+
+            <hr class="star-primary" />
+            <div>
+                <h3>Reason for Running</h3>
+                <p>I take pride the City of Virginia.  I was born in at the Virginia Regional Medical Center, I graduated from Virginia Public Schools.  I currently live and work within the city limits of Virginia.  I believe that it is up to me to make a difference in my community.  I am actively involved in several local organizations.  I want to continue to make a difference for a community that continues to become more diverse.</p>
+
+                <p>My grandfather served as an airplane mechanic in Europe during World War II.  Family members are currently an active part of the Minnesota National Guard.  I believe in the Constitution of the United States, the constitution of Minnesota and the Virginia Charter and Code.  A representative democracy should communicate with citizens.  This means talking to AND listening to others.  </p>
+
+                <p>I want to be a part of that communication and the future of our city.  We need to have people of different backgrounds and of different opinions openly discussing options and representing the citizens.  Elected officials need to take time to hear all sides, even if there are differences of opinions.  I feel my ideas will help Virginia to move forward into a safer, more cooperative future not only within city limits, but in the Quad Cities, and across the range.</p>
+            </div>
+            <hr class="star-primary" />
+            <div>
+                <h3>Health and Safety</h3>
+
+                <p>A property maintenance code is necessary in the city of Virginia.  As the current council moves line by line through the proposed code, it is important to see the final outcome as a safer, more vibrant city.</p>
+
+                <p>The citizens of Virginia are the key to feeling safe and secure once again.  Our Police and Fire Chiefs are both working very hard to build and maintain the highest of quality employees.  The city needs to also let the Departments acquire and maintain the equipment and training needed to continue to protect and serve our city.  But, they cannot do it alone.  Citizens and business owners need to be present in our city.  They need to be walking.  They need to be in their yards and on the sidewalks greeting fellow residents, passers by, and guest.  Crime happens when people are not paying attention.  Bring life back to our streets and confronting illegal behavior is the responsibility of every citizen.</p>
+            </div>
+            <hr class="star-primary" />
+            <div>
+                <h3>Financial</h3>
+                <p>A majority of the city budget goes to pay our hard working staff.  What is left is cut and divided into tiny portions to run departments.  I would like to examine and see if there is room for improvement when it comes to managing the City of Virginia budget.  Elected officials need to listen to the people hired to run the city.  We need to listen to the administration and the department heads.  These are the people who work daily with budgets.  They know the ins-and-outs of staffing challenges, maintenance, expenses, and revenue.  They are the council’s greatest asset to create a balanced and sustainable budget.  Virginia needs to move forward and be able to be balance what we want, what we need, and how we plan for the future. </p>
+            </div>
+            <hr class="star-primary" />
+            <div>
+                <h3>City Green Space</h3>
+                <p>The City of Virginia needs to be balancing our current green space with the resources available to manage it.  As a Parks and Rec commissioner, I have spent many meetings talking about and trying to find solutions to all of our recreation needs: lack of staff for mowing, trimming, and fixing.  The city’s green space is only green about half of the year.  Our Miners’ Memorial Building is in need of serious repair.  Most of which has been put off for one reason or another since the mid-80s.  The city needs to look at the bigger picture to manage how we better support all of our public recreation resources.  We need to start planning for regular maintenance of the streets, buildings, and public spaces before they fall into such disrepair that it is an emergency fix.</p>
+            </div>
+            <hr class="star-primary" />
+            <div>
+                <h3>Economic Development</h3>
+                <p>The council’s primary job is to support the administration we have hired.  Economic development is not a catch phrase to be thrown around at meetings.  The city recently hired a top-notch city administrator.  She will be able to work with the staff that has made great strides in increasing the tax base in Virginia.  It is hard work to bring employers to the area.  It is more than making a deal to build a building or finding grants to expand infrastructure; it is creating a business friendly environment supported by great education opportunities,  a quality arts and recreation experience, and a community of friendly, welcoming people.  Every citizen of Virginia has a part in economic development.  We all need to take a part in making Virginia a viable economic destination.</p>
+
+                <p>The city council needs to direct, encourage, and support city staff to create long range plans for all departments.  We need to have written plans on replacement of capital expenditures for buildings and infrastructure.  We need to see how our personnel expenses are going to change as longevity increases or as we hire new staff.   We seem to only look at the budget one year at a time and put off the less important needs until the next year.	We need to be looking out 5, 10, 20 year for possible building needs.	Finally, we need to see how approved expenditures are fitting into the current budget as it is happening.  Eventually we will run out of “next years” for our city.</p>
+            </div>
+            <hr class="star-primary" />
+            <div>
+                <h3>Utilities</h3>
+
+                <p>Virginia needs to be in the business of running a city, not in the business of Utilities, managing hospitals, or renting apartments.  At one time, municipal utilities were the only way to ensure adequate and reliable services.  Today we seem to not be able to meet the growing needs of an old system of pipes, boilers and generators.  The city should look into options as we move forward.  This should be done with public and professional input.  Maybe there is a more efficient and cost effective way to provide services to Virginia.</p>
+            </div>
+            <hr class="star-primary" />
+            <div>
+                <h3>Open Communication</h3>
+
+                <p>The city needs to upgrade its communication technology.  All city meetings, including committees and commissions should also be streamed live on the city’s web site.  Cable reaches a limited number of Virginia Citizens.  Live streaming would open up city government to an entire generation of citizens.  Several cities have gone to live streaming with reasonable cost.  An update to council chamber audio/visual technology would be a great investment in Virginia’s future.</p>
+
+                <p>I would go one step further and suggest that all city council committee meetings be scheduled on Tuesday evenings opposite of the regular council meetings.  This would create a more welcoming time frame for people who work during the day.  City staff can adjust schedules to compensate for the time.</p>
+
+                <p>City employees making service calls or investigating concerns could leave a small city business card at the time of visit.  Leaving a time, date, and a first name of the employee would go a long way to helping the city communicate that it is working for the people on issues. People want to have the concerns heard.  When a city employee responds to a concern with “what do you want me to do about it?” or “There isn’t much I can do.”  they lose faith in the city and question public safety.  Validating concerns and simple follow-up would do quite a bit to improve customer relations and bring a higher sense of community to Virginia.</p>
+
+                <p>I am disheartened to see that some departments do not have computers at key places.  I have learned that a part of the communication problem is that city staff do not have the proper tools to communicate effectively.  The council must address the lack of appropriate tools within all departments of the city.</p>
+            </div>
+            <hr class="star-primary" />
+            <div>
+                <h3>Finance</h3>
+
+                <p>I support diversification of the city tax base.  While it is important to support current and future mining operations, mining will not always be here for us.  As we saw over the last few years, mining will have its ups and downs.  We need to seek and support local investment in other industries.  The more diverse our economic base, the stronger will be as a city.</p>
+
+                <p>The city needs to look at the big picture when it comes to budgets.  We need to look at the income and expenses.  We need to listen to our administration and department heads.  They know what is best.  I cannot say what should be increased or decreased because it will depend on each department's needs and wants at the time of budgeting.  Being arbitrary in cutting one budget over another simply because of the department is not good city management.  The city council needs to listen to and respect the requests and direction of department heads</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<div class="colored">
+<section id="about" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h2>About Steven B. Johnson</h2>
+
+            <div>
+                <h3>Steven Bert Johnson</h3>
+                <p>41<br />
+                Lifelong resident of the Virginia Area.</p>
+            </div>
+
+            <div>
+                <h3>Education</h3>
+
                 <ul>
-                    <li>
-                        <a class="usa-current" href="#issues">Issues</a>
+                    <li>Virginia High School 1993</li>
+                    <li>Mesabi Community College. Associate of Arts Degree: June 1995</li>
+                    <li>University Of Minnesota Duluth. Bachelor of Applied Science, summa cum laude, May 1999<br/>
+                        Major: Elementary Education GPA: 3.97, Collateral Field: Social Science
                     </li>
-                    <li>
-                        <a href="#about">About Steven B. Johnson</a>
+                    <li>Mesabi Range Community & Technical College: Associate of Science in Business, May 2012</li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h3>Employment</h3>
+
+                <ul>
+                    <li>Adult Education Instructor<br/>
+                        AEOA - Arrowhead Equal Opportunity Agency
                     </li>
-                    <li>
-                        <a href="#donation">Donations</a>
+
+                    <li>Executive Director of Apple Tree Learning Center<br/>
+                        Responsibilities: financial management, personnel/human resource management, public relations, marketing,
+                        fundraising.
                     </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#volunteers">Volunteers</a>
-                    </li>
+
+                    <li>Licensed Minnesota Teacher 1 – 6</li>
                 </ul>
             </div>
-        </nav>
-    </header>
 
-    <div class="content-background-white">
-        <section class="usa-grid usa-section" id="issues">
-            <h2 class="usa-heading heading-margin-alt">Issues</h2>
+            <div>
+                <h3>Current community involvement</h3>
 
-
-            <h3>Why are you running for office?</h3>
-
-            <p>I take pride the City of Virginia.  I want to continue to make a difference for a community that continues to become more diverse.  My grandfather served as an airplane mechanic in Europe during World War II.  Family members are currently an active part of the Minnesota National Guard.  I believe in the Constitution of the United States, the constitution of Minnesota and the Virginia Charter and Code.  A representative democracy should communicate with citizens.  This means talking to AND listening to others.  I want to be a part of that communication and the future of our city.  We need to have people of different backgrounds and of different opinions openly discussing options and representing the citizens.  Elected officials need to take time to hear all sides, even if there are differences of opinions.  I feel my ideas will help Virginia to move forward into a safer, more cooperative future not only within city limits, but in the Quad Cities, and across the range.</p>
-
-
-            <p>A property maintenance code is necessary in the city of Virginia.  As the current council moves line by line through the proposed code, it is important to see the final outcome as a safer, more vibrant city.</p>
-
-            <p>The citizens of Virginia are the key to feeling safe and secure once again.  Our Police and Fire Chiefs are both working very hard to build and maintain the highest of quality employees.  The city needs to also let the Departments acquire and maintain the equipment and train needed to continue to protect and serve our city.  But, they cannot do it alone.  Citizens and business owners need to be present in our city.  They need to be walking.  They need to be in their yards and on the sidewalks greeting fellow residents, passers by, and guest.  Crime happens when people are not paying attention.  Bring life back to our streets and confronting illegal behavior is the responsibility of every citizen.</p>
+                <ul>
+                    <li>Long Range Comprehensive Planning Advisory Committee</li>
+                    <li>City of Virginia, Parks & Recreation Commission-Vice Chair-Appointed by city council</li>
+                    <li>Foster Grandparents of Northeast Minnesota & Northwest Wisconsin - Advisory Board Chair</li>
+                    <li>Virginia Teen Center: Board Chair, volunteer Staff</li>
+                    <li>Laurentian Chamber of Commerce: Board of Directors</li>
+                    <li>Lyric Center for the Arts - Board Member</li>
+                </ul>
+            </div>
 
 
-            <h3>Do you believe the current mayor and council have been fiscally responsible for citizens?</h3>
-            <p>Yes.  There is, however, room for improvement when it comes to managing the City of Virginia budget.  Elected officials need to listen to the people hired to run the city.  We need to listen to the administration and the department heads.  These are the people who work daily with budgets.  They know the ins-and-outs of staffing challenges, maintenance, expenses, and revenue.  They are the council’s greatest asset to create a balanced and sustainable budget.  Virginia needs to move forward and be able to be balance what we want, what we need, and how we plan for the future.</p>
+            <div>
+                <h3>Previous Volunteer Service</h3>
 
-            <h3>Do you believe the city needs more green space?</h3>
-
-            <p>The City of Virginia needs to be balancing our current green space with the resources available to manage it.  As a Parks and Rec commissioner, I have spent many meetings talking about and trying to find solutions to all of our recreation needs: lack of staff for mowing, trimming, and fixing.  The city’s green space is only green about half of the year.  Our Miners’ Memorial Building is in need of serious repair.  Most of which has been put off for one reason or another since the mid-80s.  The city needs to look at the bigger picture to manage how we better support our all of public recreation resources.  We need to start planning for regular maintenance of the streets, buildings, and public spaces before they fall into such disrepair that it is an emergency fix.</p>
-
-            <h3>What do you believe should be the council/mayor role in economic development?</h3>
-            <p>The council’s primary job is to support the administration we have hired.  Economic development is not a catch phrase to be thrown around at meetings.  We currently have a top-notch city administrator and staff that have made great strides in increasing the tax base in Virginia.  It is hard work to bring employers to the area.  It is more than making a deal to build a building or finding grants to expand infrastructure; it is creating a business friendly environment supported by great education opportunities,  a quality arts and recreation experience, and a community of friendly, welcoming people.  Every citizen of Virginia has a part in economic development.  We all need to take a part in making Virginia a viable economic destination.</p>
-
-            <h3>What would be your main budget priority?</h3>
-
-            <p>Working with city staff to create long range plans for all departments.  We need to have written plans on replacement of capital expenditures for buildings and infrastructure.  We need to see how our personnel expenses are going to change as longevity increases or as we hire new staff.   We seem to only look at the budget one year at a time and put off the less important needs until the next year. We need to be looking out 5, 10, 20 year for possible building needs.   Finally, we need to see how approved expenditures are fitting into the current budget as it is happening.</p>
-
-            <h3>Do you believe the city should move toward selling the Virginia Public Utilities?</h3>
-
-            <p>Yes.  Virginia needs to be in the business of running a city, not in the business of Utilities, managing hospitals, or renting apartments.  At one time, municipal utilities were the only way to ensure adequate and reliable services.  Today we seem to not be able to meet the growing needs of an old system of pipes, boilers and generators.  The city should look into options as we move forward.  This should be done with public and professional input.  Maybe there is a more efficient and cost effective way to provide services to Virginia.</p>
-
-            <h3>Do you believe the city’s committee meetings (especially the Finance Committee), where most of the public’s work is done, should be televised live?</h3>
-
-            <p>Yes! Moreover, all city meetings should also be streamed live on the city’s web site.  Cable reaches a limited number of Virginia Citizens.  Live streaming would open up city government to an entire generation of citizens.  Several cities have gone to live streaming with reasonable cost.  An update to council chamber audio/visual technology would be a great investment in Virginia’s future.</p>
-
-            <p>City committee meetings should be scheduled on Tuesday evenings opposite of the regular council meetings.  This would create a more welcoming time frame for people who work during the day.  City staff can adjust schedules to compensate for the time.</p>
-
-            <h3>Do you support the City Council’s resolution backing PolyMet and copper/nickel/precious metals on the Iron Range?</h3>
-            <p>Absolutely!  I have voted for resolutions supporting responsible mining as a Laurentian Chamber of Commerce Board Member.  I have attended meetings in support of responsible mining.  The City of Virginia needs to continue to support efforts to bring jobs to Northern Minnesota. PolyMet wants to be a responsible and accountable community member that provides a major economic impact into the area.  Then need continued support from the entire Iron Range.</p>
-
-            <h3>What department budgets, if any, do you believe should be cut?<br />
-                What department budgets, if any, do you believe should be increased?</h3>
-            <p>The city needs to look at the big picture when it comes to budgets.  We need to look at the income and expenses.  We need to listen to our administration and department heads.  They know what is best.  I cannot say what should be increased or decreased because it will depend on each department's needs and wants at the time of budgeting.  Being arbitrary in cutting one budget over another simply because of the department is not good city management.  The city council needs to listen to and respect the requests and direction of department heads.</p>
-
-            <h3>Is there any other issue you would like to address?</h3>
-            <p>The city needs to work on communication:<br />
-
-                Agenda and complete packets should be available in PDF form online at the city web site.<br />
-
-                Social media could support traditional posting of event and meetings as well as providing a method of constructive feedback.<br />
-
-                City employees making service calls or investigating concerns could leave a small city business card at the time of visit.  Leaving a time, date, and a first name of the employee would go a long way to helping the city communicate that it is working for the people on issues.  I am disheartened to see that some departments do not have computers at key places.  I have learned that a part of the communication problem is that city staff do not have the proper tools to communicate effectively.<br />
-
-                The council needs to move toward electronic tablets.  The amount of paper saved would pay for the upgrades relatively quickly.  City staff could streamline copying and organizing by having an electronic process.<br />
-
-                The Virginia Botanical Gardens (Greenhouse) is in need of some short and long term planning.  Working together with The Friends will keep this unique asset strong.<br />
-            </p>
-
-        </section>
+                <ul>
+                    <li>Northland Volunteer Center/RSVP - Advisory Board Member & Volunteer Presenter</li>
+                    <li>East Range Academy of Technology and Science - School Board Member, finance committee, policy committee</li>
+                </ul>
+            </div>
+        </div>
     </div>
+</section>
+</div>
 
+<!-- Donation Section -->
+<section id="donation" class="content-section text-center">
+    <div class="download-section">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Donations</h2>
 
-    <div class="content-background-colored">
-        <section class="usa-grid usa-section" id="about">
-            <h2 class="usa-heading heading-margin-alt">About Steven B. Johnson</h2>
+                <h3>Paypal</h3>
 
-            <h3>Steven Bert Johnson</h3>
-            <p>41<br/>
-                Single
-            </p>
-
-            <p>I am a lifelong resident of the Virginia Area.</p>
-
-            <h4>Education</h4>
-            <ul>
-                <li>Virginia High School 1993</li>
-                <li>Mesabi Community College. Associate of Arts Degree: June 1995</li>
-                <li>University Of Minnesota Duluth. Bachelor of Applied Science, summa cum laude, May 1999<br />
-                    Major: Elementary Education GPA: 3.97, Collateral Field: Social Science</li>
-                <li>Mesabi Range Community & Technical College: Associate of Science in Business, May 2012</li>
-            </ul>
-
-            <h4>Employment</h4>
-
-            <ul>
-                <li>Adult Education Instructor<br />
-                    AEOA - Arrowhead Equal Opportunity Agency</li>
-
-                <li>Executive Director of Apple Tree Learning Center<br />
-                    Responsibilities:  financial management, personnel/human resource management, public relations, marketing, fundraising.</li>
-
-                <li>Licensed Minnesota Teacher 1 – 6</li>
-            </ul>
-
-            <h4>Current community involvement</h4>
-            <ul>
-                <li>Long Range Comprehensive Planning Advisory Committee</li>
-                <li>City of Virginia, Parks & Recreation Commission-Vice Chair-Appointed by city council</li>
-                <li>Foster Grandparents of Northeast Minnesota & Northwest Wisconsin - Advisory Board Chair</li>
-                <li>Virginia Teen Center: Board Chair, volunteer Staff</li>
-                <li>Laurentian Chamber of Commerce: Board of Directors</li>
-                <li>Lyric Center for the Arts - Board Member</li>
-            </ul>
-
-            <h4>Previous Volunteer Service</h4>
-
-            <ul>
-                <li>Northland Volunteer Center/RSVP - Advisory Board Member & Volunteer Presenter</li>
-                <li>East Range Academy of Technology and Science - School Board Member, finance committee, policy committee</li>
-            </ul>
-        </section>
-    </div>
-
-
-    <div class="content-background-colored">
-        <section class="usa-grid usa-section" id="donation">
-            <h2 class="usa-heading heading-margin-alt">Donation</h2>
-
-            <h3>Paypal</h3>
-            <div class="usa-grid">
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <input type="hidden" name="hosted_button_id" value="HG9HQBU43N536">
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class="paypal_image">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+                           name="submit" alt="PayPal - The safer, easier way to pay online!" class="paypal_image">
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                 </form>
-            </div>
-
-            <h3>By check</h3>
-            <div class="usa-grid">
-                <button class="usa-button usa-button-big usa-button-outline">$10</button>
-                <button class="usa-button usa-button-big usa-button-outline">$25</button>
-                <button class="usa-button usa-button-big usa-button-outline">$50</button>
-                <button class="usa-button usa-button-big usa-button-outline">$100</button>
-            </div>
 
 
-
-            <div class="usa-grid">
-                <form class="usa-form-large">
-
-                    <fieldset>
-                        <legend>Name</legend>
-                        <label for="title">Title</label>
-                        <input class="usa-input-tiny" id="title" name="title" type="text">
-
-                        <label for="first-name">First name <span class="usa-additional_text">Required</span></label>
-                        <input id="first-name" name="first-name" type="text" required="" aria-required="true">
-
-                        <label for="middle-name">Middle name</label>
-                        <input id="middle-name" name="middle-name" type="text">
-
-                        <label for="last-name">Last name <span class="usa-additional_text">Required</span></label>
-                        <input id="last-name" name="last-name" type="text" required="" aria-required="true">
-
-                        <label for="suffix">Suffix</label>
-                        <input class="usa-input-tiny" id="suffix" name="suffix" type="text">
-                    </fieldset>
-
-
-                    <fieldset>
-                        <legend>Mailing address</legend>
-                        <label for="mailing-address-1">Street address 1</label>
-                        <input id="mailing-address-1" name="mailing-address-1" type="text">
-
-                        <label for="mailing-address-2">Street address 2 <span class="usa-additional_text">Optional</span></label>
-                        <input id="mailing-address-2" name="mailing-address-2" type="text">
-
-                        <div>
-                            <div class="usa-input-grid usa-input-grid-medium">
-                                <label for="city">City</label>
-                                <input id="city" name="city" type="text">
-                            </div>
-
-                            <div class="usa-input-grid usa-input-grid-small">
-                                <label for="state">State</label>
-                                <select id="state" name="state">
-                                    <option value=""></option>
-                                    <option value="AL">Alabama</option>
-                                    <option value="AK">Alaska</option>
-                                    <option value="AZ">Arizona</option>
-                                    <option value="AR">Arkansas</option>
-                                    <option value="CA">California</option>
-                                    <option value="CO">Colorado</option>
-                                    <option value="CT">Connecticut</option>
-                                    <option value="DE">Delaware</option>
-                                    <option value="DC">District of Columbia</option>
-                                    <option value="FL">Florida</option>
-                                    <option value="GA">Georgia</option>
-                                    <option value="HI">Hawaii</option>
-                                    <option value="ID">Idaho</option>
-                                    <option value="IL">Illinois</option>
-                                    <option value="IN">Indiana</option>
-                                    <option value="IA">Iowa</option>
-                                    <option value="KS">Kansas</option>
-                                    <option value="KY">Kentucky</option>
-                                    <option value="LA">Louisiana</option>
-                                    <option value="ME">Maine</option>
-                                    <option value="MD">Maryland</option>
-                                    <option value="MA">Massachusetts</option>
-                                    <option value="MI">Michigan</option>
-                                    <option value="MN">Minnesota</option>
-                                    <option value="MS">Mississippi</option>
-                                    <option value="MO">Missouri</option>
-                                    <option value="MT">Montana</option>
-                                    <option value="NE">Nebraska</option>
-                                    <option value="NV">Nevada</option>
-                                    <option value="NH">New Hampshire</option>
-                                    <option value="NJ">New Jersey</option>
-                                    <option value="NM">New Mexico</option>
-                                    <option value="NY">New York</option>
-                                    <option value="NC">North Carolina</option>
-                                    <option value="ND">North Dakota</option>
-                                    <option value="OH">Ohio</option>
-                                    <option value="OK">Oklahoma</option>
-                                    <option value="OR">Oregon</option>
-                                    <option value="PA">Pennsylvania</option>
-                                    <option value="RI">Rhode Island</option>
-                                    <option value="SC">South Carolina</option>
-                                    <option value="SD">South Dakota</option>
-                                    <option value="TN">Tennessee</option>
-                                    <option value="TX">Texas</option>
-                                    <option value="UT">Utah</option>
-                                    <option value="VT">Vermont</option>
-                                    <option value="VA">Virginia</option>
-                                    <option value="WA">Washington</option>
-                                    <option value="WV">West Virginia</option>
-                                    <option value="WI">Wisconsin</option>
-                                    <option value="WY">Wyoming</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <label for="zip">ZIP</label>
-                        <input class="usa-input-medium" id="zip" name="zip" type="text" pattern="[\d]{5}(-[\d]{4})?" data-grouplength="5,4" data-delimiter="-" data-politespace="">
-                    </fieldset>
-
-                    <a class="usa-button usa-button-big usa-button-secondary" href="#donation">Donate</a>
-                </form>
-
-                <div class="usa-grid">
-                    
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <div class="content-background-white">
-        <section class="usa-grid usa-section" id="contact">
-            <h2 class="usa-heading heading-margin-alt">Contact</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-        </section>
-    </div>
-
-    <div class="content-background-colored">
-        <section class="usa-grid usa-section"id="volunteers">
-            <h2 class="usa-heading heading-margin-alt">Volunteers</h2>
-            <img src="images/supporter.jpg" alt="supporter" width="300"/>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-        </section>
-    </div>
-
-    <footer class="usa-footer usa-footer-medium" role="contentinfo">
-        <div class="usa-grid usa-footer-return-to-top">
-            <a href="#">Return to top</a>
-        </div>
-        <div class="usa-footer-primary-section">
-            <div class="usa-grid-full">
-                <nav class="usa-footer-nav">
-                    <ul class="usa-unstyled-list">
-                        <li class="usa-width-one-sixth usa-footer-primary-content">
-                            <a class="usa-footer-primary-link" href="#issues">Issues</a>
-                        </li>
-                        <li class="usa-width-one-sixth usa-footer-primary-content">
-                            <a class="usa-footer-primary-link" href="#about">About</a>
-                        </li>
-                        <li class="usa-width-one-sixth usa-footer-primary-content">
-                            <a class="usa-footer-primary-link" href="#donation">Donation</a>
-                        </li>
-                        <li class="usa-width-one-sixth usa-footer-primary-content">
-                            <a class="usa-footer-primary-link" href="#contact">Contact</a>
-                        </li>
-                        <li class="usa-width-one-sixth usa-footer-primary-content">
-                            <a class="usa-footer-primary-link" href="#volunteers">Volunteers</a>
-                        </li>
-                    </ul>
-                </nav>
+                <h3>Direct</h3>
+                <p>PO Box 567 Va, MN 55792</p>
             </div>
         </div>
+    </div>
+</section>
 
-        <div class="usa-footer-secondary_section">
-            <div class="usa-grid">
-                <div class="usa-footer-logo usa-width-one-half">
-                    <img class="usa-footer-logo-img" src="/images/vote_logo.png" alt="Logo image">
-                    <h3 class="usa-footer-logo-heading">Steven B. for Virginia</h3>
-                </div>
-                <div class="usa-footer-contact-links usa-width-one-half">
-                    <a class="usa-link-facebook" href="https://www.facebook.com/stevenbforvirginia">
-                        <span>Facebook</span>
-                    </a>
-                    <a class="usa-link-instagram" href="#">
-                        <span>Instagram</span>
-                    </a>
-                    <address>
-                        <h3 class="usa-footer-contact-heading">Agency Contact Center</h3>
-                        <p>(800) CALL-GOVT</p>
-                        <a href="mailto:">info@agency.gov</a>
-                    </address>
-                </div>
-            </div>
+<!-- Contact Section -->
+<div class="colored">
+<section id="contact" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Contact</h2>
+
+            <h3>Phone</h3>
+            <p>218-994-2094</p>
+
+            <h3>Email</h3>
+            <p><a href="mailto://morgantac@gmail.com">morgantac@gmail.com</a></p>
+
+            <h3>Facebook</h3>
+            <p><a href="https://www.facebook.com/stevenbforvirginia"><i class="fa fa-facebook fa-3x"></i></a></p>
+
+            <h3>Instagram</h3>
+            <p><a href=""><i class="fa fa-instagram fa-3x"></i></a></p>
         </div>
-    </footer>
+    </div>
+</section>
 </div>
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script>
-    $(function(){
-        
-    });
-</script>
+
+<!-- volunteers Section -->
+<section id="volunteer" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Volunteers</h2>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-xs-12 thumb">
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="pictures/volunteer/supporter.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-12 thumb">
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="pictures/volunteer/volunteering_at_edgewood.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-12 thumb">
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="pictures/volunteer/volunteering_for_the_City.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-12 thumb">
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="pictures/volunteer/volunteering_with_foster_grandparents.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-12 thumb">
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="pictures/volunteer/Volunteering_with_the_Chamber.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<footer>
+    <div class="container text-center">
+        <div class="row">
+            <img src="images/vote_logo.png" width="150"/>
+            <p>STEVEN B. FOR VIRGINIA</p>
+            <p>Copyright &copy; 2016</p>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="vendor/jquery/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+<!-- Theme JavaScript -->
+<script src="js/steve.js"></script>
+
 </body>
+
 </html>
