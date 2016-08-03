@@ -2,7 +2,7 @@
 
 The source code for http://sbjohnson.biz
 
-You can edit and upload pictures with Github page.
+You can edit and upload pictures with Github page. The website will be changed automatically.
 
 ## File description
 
